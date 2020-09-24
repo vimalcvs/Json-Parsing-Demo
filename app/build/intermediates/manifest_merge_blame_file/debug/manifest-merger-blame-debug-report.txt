@@ -1,0 +1,63 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.vimalcvs.jsonparsing"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="16"
+8-->C:\Users\vimal\AndroidStudioProjects\JsonParsingDemo\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="30" />
+9-->C:\Users\vimal\AndroidStudioProjects\JsonParsingDemo\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->C:\Users\vimal\AndroidStudioProjects\JsonParsingDemo\app\src\main\AndroidManifest.xml:5:5-67
+11-->C:\Users\vimal\AndroidStudioProjects\JsonParsingDemo\app\src\main\AndroidManifest.xml:5:22-64
+12    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+12-->C:\Users\vimal\AndroidStudioProjects\JsonParsingDemo\app\src\main\AndroidManifest.xml:6:5-81
+12-->C:\Users\vimal\AndroidStudioProjects\JsonParsingDemo\app\src\main\AndroidManifest.xml:6:22-78
+13
+14    <application
+14-->C:\Users\vimal\AndroidStudioProjects\JsonParsingDemo\app\src\main\AndroidManifest.xml:8:5-30:19
+15        android:allowBackup="true"
+15-->C:\Users\vimal\AndroidStudioProjects\JsonParsingDemo\app\src\main\AndroidManifest.xml:9:9-35
+16        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+16-->[androidx.core:core:1.2.0] C:\Users\vimal\.gradle\caches\transforms-2\files-2.1\4527d81fa1dab2c4adef56282f6f51b4\core-1.2.0\AndroidManifest.xml:24:18-86
+17        android:debuggable="true"
+18        android:hardwareAccelerated="true"
+18-->C:\Users\vimal\AndroidStudioProjects\JsonParsingDemo\app\src\main\AndroidManifest.xml:10:9-43
+19        android:icon="@mipmap/ic_launcher"
+19-->C:\Users\vimal\AndroidStudioProjects\JsonParsingDemo\app\src\main\AndroidManifest.xml:11:9-43
+20        android:label="@string/app_name"
+20-->C:\Users\vimal\AndroidStudioProjects\JsonParsingDemo\app\src\main\AndroidManifest.xml:12:9-41
+21        android:supportsRtl="true"
+21-->C:\Users\vimal\AndroidStudioProjects\JsonParsingDemo\app\src\main\AndroidManifest.xml:13:9-35
+22        android:testOnly="true"
+23        android:theme="@style/AppTheme" >
+23-->C:\Users\vimal\AndroidStudioProjects\JsonParsingDemo\app\src\main\AndroidManifest.xml:14:9-40
+24        <activity
+24-->C:\Users\vimal\AndroidStudioProjects\JsonParsingDemo\app\src\main\AndroidManifest.xml:15:9-23:20
+25            android:name="com.vimalcvs.jsonparsingdemo.MainActivity"
+25-->C:\Users\vimal\AndroidStudioProjects\JsonParsingDemo\app\src\main\AndroidManifest.xml:16:13-41
+26            android:label="@string/app_name" >
+26-->C:\Users\vimal\AndroidStudioProjects\JsonParsingDemo\app\src\main\AndroidManifest.xml:17:13-45
+27            <intent-filter>
+27-->C:\Users\vimal\AndroidStudioProjects\JsonParsingDemo\app\src\main\AndroidManifest.xml:18:13-22:29
+28                <action android:name="android.intent.action.MAIN" />
+28-->C:\Users\vimal\AndroidStudioProjects\JsonParsingDemo\app\src\main\AndroidManifest.xml:19:17-69
+28-->C:\Users\vimal\AndroidStudioProjects\JsonParsingDemo\app\src\main\AndroidManifest.xml:19:25-66
+29
+30                <category android:name="android.intent.category.LAUNCHER" />
+30-->C:\Users\vimal\AndroidStudioProjects\JsonParsingDemo\app\src\main\AndroidManifest.xml:21:17-77
+30-->C:\Users\vimal\AndroidStudioProjects\JsonParsingDemo\app\src\main\AndroidManifest.xml:21:27-74
+31            </intent-filter>
+32        </activity>
+33        <activity
+33-->C:\Users\vimal\AndroidStudioProjects\JsonParsingDemo\app\src\main\AndroidManifest.xml:25:9-27:60
+34            android:name="com.vimalcvs.jsonparsingdemo.DetailActivity"
+34-->C:\Users\vimal\AndroidStudioProjects\JsonParsingDemo\app\src\main\AndroidManifest.xml:26:13-43
+35            android:label="@string/title_activity_detail" />
+35-->C:\Users\vimal\AndroidStudioProjects\JsonParsingDemo\app\src\main\AndroidManifest.xml:27:13-58
+36    </application>
+37
+38</manifest>
