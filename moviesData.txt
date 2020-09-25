@@ -27,7 +27,7 @@
       "rating": 8.7,
       "duration": "169 min",
       "director": "Christopher Nolan",
-      "tagline": "Mankind was born on Earth. It was never meant to die here.",
+      "tagline": "Mankind was born on Earth. It was never meanat to die here.",
       "cast": [
         {
           "name": "Matthew McConaughey"
